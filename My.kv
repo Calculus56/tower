@@ -1,0 +1,34 @@
+<P>:
+    Label:
+        text: "Blue Sword"
+        size_hint: 0.6, 0.2
+        pos_hint: {"x":-0.1, "top":1}
+    Button:
+        text: "10 gold"
+        size_hint: 0.4, 0.2
+        pos_hint: {"x":0.5, "top":1}
+        on_release: root.sword_blue()
+    Label:
+        text: "Right Wizard"
+        size_hint: 0.6, 0.2
+        pos_hint: {"x":-0.1, "top":0.8}
+    Button:
+        text: "100 gold"
+        size_hint: 0.4, 0.2
+        pos_hint: {"x":0.5, "top":0.8}
+        on_release: root.wizard()
+    Label:
+        text: "Left Assassin"
+        size_hint: 0.6, 0.2
+        pos_hint: {"x":-0.1, "top":0.6}
+    Button:
+        text: "100 gold"
+        size_hint: 0.4, 0.2
+        pos_hint: {"x":0.5, "top":0.6}
+        on_release: root.assassin()
+
+    Button:
+        text: "Close"
+        size_hint: 0.8, 0.2
+        pos_hint: {"x":0.1, "y":0.1}
+        on_release: root.dismiss()
